@@ -12,15 +12,22 @@
 <body>
 
 
-    <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center">
 
-        <div style="border: 10px solid rgb(169, 114, 63)" class="container w-75 h-75 rounded-5 bg-success position-relative">
-            <figure style="width: 100px;" class="m-0 position-absolute top-50 end-50">
+        <div class="container d-flex justify-content-center gap-5">
+            <span class="badge rounded-pill text-bg-primary fs-3">Giocatore 1</span>
+            <span class="badge rounded-pill text-bg-danger fs-3">Giocatore 2</span>
+        </div>
+
+        <button id="playBtn" class="my-4 btn btn-warning fs-2">Gioca</button>
+
+        <div id="table" style="border: 10px solid rgb(169, 114, 63)" class="container w-75 h-75 rounded-5 bg-success position-relative">
+            <!-- <figure style="width: 100px;" class="m-0 position-absolute top-50 end-50">
                 <img class="img-fluid" src="./assets/img/dado1.png" alt="dice">
             </figure>
             <figure style="width: 100px;" class="m-0 position-absolute bottom-50 start-50 ">
                 <img class="img-fluid" src="./assets/img/dado4.png" alt="dice">
-            </figure>
+            </figure> -->
         </div>
 
     </div>
