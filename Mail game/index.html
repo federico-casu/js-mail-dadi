@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mail Game</title>
-</head>
-<body>
 
+    <!-- CSS Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
+
+</head>
+<body class="bg-primary-subtle">
+
+    <div class="container text-center">
+        <h1 class="text-capitalize">log-in</h1>
+        <div class="container py-3 rounded-3 bg-warning-subtle w-50">
+            <label for="userMail" class="fs-4">Email address</label>
+            <input type="email" id="userMail" class="form-control w-50 mx-auto">
+            <button class="btn btn-primary form-control w-auto my-3">Next</button>
+        </div>
+        <div class="container py-3 my-3 rounded-3 bg-success opacity-75 w-25 d-none">
+            <h1 class="text-white text-capitalize">accesso eseguito</h1>
+        </div>
+        <div class="container py-3 my-3 rounded-3 bg-danger opacity-75 w-25 d-none">
+            <h1 class="text-white text-capitalize">accesso negato</h1>
+        </div>
+    </div>
+
+    <!-- Js Bootstrap -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js' integrity='sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==' crossorigin='anonymous'></script>
+
+    <!-- My script -->
     <script src="main.js"></script>
 </body>
 </html>
